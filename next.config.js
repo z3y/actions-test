@@ -10,6 +10,7 @@ const nextConfig = {
         unoptimized: true,
       },
       assetPrefix: './',
+      basePath: '/actions-test',
   }
 
   module.exports = withNextra(nextConfig)
