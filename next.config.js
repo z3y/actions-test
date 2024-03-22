@@ -9,6 +9,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
       },
+      assetPrefix: './',
   }
 
   module.exports = withNextra(nextConfig)
