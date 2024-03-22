@@ -17,7 +17,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false
 if (isGithubActions) {
     const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
-    nextConfig.assetPrefix = `/${repo}/`
+    nextConfig.assetPrefix = `/${repo}`
     nextConfig.basePath = `/${repo}`
 }
 
